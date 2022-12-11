@@ -2,8 +2,8 @@
 @layer base{
 
     @font-face {
-    font-family: 'FZ';
-    src: url('../FZ.ttf') format('truetype');
+        font-family: 'MyFont';
+        src: url('/fonts/myfont.ttf') format('truetype');
     }
 
 
