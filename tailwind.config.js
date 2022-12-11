@@ -5,7 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+        backgroundImage: {
+        'background': "url('/1.jpg')",
+        //  'footer-texture': "url('/img/footer-texture.png')",
+        }
+    },
   },
   plugins: [],
 }

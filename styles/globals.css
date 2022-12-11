@@ -1,9 +1,5 @@
 @tailwind base;
 @layer base{
-    span
-    {
-        font-size: 6vw;
-    }
 }
 
 @tailwind components;
