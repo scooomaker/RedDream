@@ -80,10 +80,10 @@ const Home: NextPage = () => {
     <>
 
       <div className="h-screen grid content-center justify-items-center">
-        <div className='yiyan text-[100px] text-white'>
+        <div className='yiyan text-[5vw] text-white'>
 
         </div>
-        <div className='text-white text-2xl'>
+        <div className='text-white text-[2vw]'>
           -----红楼梦
         </div>
       </div>
