@@ -1,11 +1,21 @@
 @tailwind base;
 @layer base{
+
+    @font-face {
+    font-family: 'FZ';
+    src: url('../FZ.ttf') format('truetype');
+    }
+
+
     body
     {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        font-family: 'MyFont';
     }
+
+    
 }
 
 @tailwind components;
