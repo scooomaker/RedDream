@@ -8,7 +8,7 @@ const imagePaths = [
   ]
   
 
-  const yiyan = [
+const yiyan = [
     ' 任凭霸水三千,我只取一敬饮 ',
     ' 花魂鸟魂总难留,鸟自无言花白羞 ',
     ' 嫩寒锁梦因春冷,芳气袭人是酒香 ',
@@ -47,5 +47,5 @@ const imagePaths = [
   
   ]
 
-export { imagePaths, yiyan };
+export default { imagePaths, yiyan };
   

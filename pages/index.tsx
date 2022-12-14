@@ -1,13 +1,13 @@
 import type { NextPage } from 'next'
 import { useEffect } from 'react'
-import { imagePaths, yiyan } from './paths'
+import Paths from './paths'
 
 const Home: NextPage = () => {
   useEffect(() => {
     
 
-    const selectedImage = imagePaths[Math.floor(Math.random() * imagePaths.length)]
-    const selectedYiyan = yiyan[Math.floor(Math.random() * yiyan.length)]
+    const selectedImage = Paths.imagePaths[Math.floor(Math.random() * Paths.imagePaths.length)]
+    const selectedYiyan = Paths.yiyan[Math.floor(Math.random() * Paths.yiyan.length)]
 
     console.log(selectedImage)
     console.log(selectedYiyan)
