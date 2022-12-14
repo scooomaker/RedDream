@@ -12,7 +12,6 @@ const Home: NextPage = () => {
     console.log(selectedImage)
     console.log(selectedYiyan)
 
-    // 使用选定的图片作为背景图片
     document.body.style.backgroundImage = `url(${selectedImage})`
 
     let myElements = document.getElementsByClassName("yiyan");
